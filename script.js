@@ -1,24 +1,24 @@
-/* console.log('Задание: "a"'); */
+console.log('Задание: "a"');
 
 
 do{
     var a = +prompt('Введите число')    
-}while(isNaN(a) || a == 0);    
+}while(isNaN(a) || a == 0) {
+    console.log(a);
+};
+
+
+let b = +prompt('Введите степень');
+isNaN(b) || b === 0 ? b = 2 : console.log(b); 
 
 
 
-
-let b = +prompt('Введите степень')
-do{
-    b = 2
-}while(isNaN(b) || b == 0);
-
-
-
-
-for(let i = 1; i <= b; i++ ) {
+for(let i = 0; i <= b; i++ ) {
     res = a ** b
     alert(res)
+    console.log(res);
     break;
 };
+
+
 
