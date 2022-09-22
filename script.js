@@ -22,3 +22,34 @@ for(let i = 0; i <= b; i++ ) {
 
 
 
+
+
+console.log('Задание: "с"');
+
+do{
+    var x = +prompt('Количество');
+}while(isNaN(x) || x <= 0) {
+    x == 5
+}
+
+do{
+    var y = prompt('Символ отступов');
+}while(y == ' ')
+
+do{
+    var z = prompt('Конечный символ');
+}while(z == ' ')
+
+
+for(let i = 0; i <= x; i++) {
+    z = i == 0 ? z : y + z
+    console.log(z);
+}
+
+
+
+
+
+
+
+
